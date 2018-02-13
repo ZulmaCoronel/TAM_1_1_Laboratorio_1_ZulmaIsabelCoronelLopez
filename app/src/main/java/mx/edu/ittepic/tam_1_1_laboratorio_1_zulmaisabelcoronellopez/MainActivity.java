@@ -29,7 +29,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         tvSalida.setText("");
         String valor = caja.getText().toString();
         int tabla = Integer.parseInt(valor);
-        for(int i=1; i<=10; i++){
+        for(int i=1; i<=20; i++){
             resultado = tabla * i;
             salida = tabla + " X " + i + " = " + resultado;
             tvSalida.append("\n" + salida);
